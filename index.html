@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Wyandhanu Maulidan Nugraha</title>
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <!-- Lightbox CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="parallax bg-cover bg-center h-96 flex items-center justify-center" style="background-image: url('https://source.unsplash.com/1600x900/?technology');">
+    <div class="text-center">
+      <img src="34.jpg" alt="Foto Profil" class="profile-img w-32 h-32 rounded-full mx-auto mb-4">
+      <h1 class="text-4xl font-bold text-black">Wyandhanu Maulidan Nugraha</h1>
+      <p id="typing-text" class="text-lg text-gray-600"></p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-8">
+    <!-- About Section -->
+    <section class="section-card p-6 mb-6">
+      <h2 class="text-2xl font-bold mb-4 text-blue-600">👋 Tentang Saya</h2>
+      <p class="text-gray-700">
+        Saya adalah mahasiswa aktif D3 Teknik Informatika di Politeknik Negeri Bandung yang memiliki passion di bidang pengembangan game dan teknologi. Dengan latar belakang prestasi di bidang GameDev, saya berhasil meraih Juara 2 dalam Lomba Cipta Game Edukasi Perpajakan yang diselenggarakan oleh Direktorat Jenderal Pajak (2021). Pencapaian terbaru saya adalah mendapatkan Sertifikat Pencatatan Hak Cipta Aplikasi dari Kementerian Hukum Republik Indonesia (2025).
+        Selain di bidang teknologi, saya juga aktif dalam berbagai bidang lain seperti musik dengan prestasi di FLS2N Solo Gitar (2023) dan memiliki sejumlah prestasi di bidang Taekwondo. Pengalaman berorganisasi sebagai Presidium I LKMM-TD 2024 POLBAN dan mantan Ketua MPK semasa SMP telah mengasah kemampuan kepemimpinan dan kerja sama tim saya.
+        Saya selalu bersemangat untuk belajar hal-hal baru dan mengembangkan diri, terutama dalam bidang teknologi informasi dan pengembangan aplikasi.
+      </p>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section-card p-6 mb-6">
+      <h2 class="text-2xl font-bold mb-4 text-blue-600">🎓 Pendidikan</h2>
+      <p class="text-gray-700">
+        Politeknik Negeri Bandung, Jurusan Teknik Komputer dan Informatika (2024 - Sekarang)
+      </p>
+    </section>
+
+    <!-- Pencapaian Section -->
+    <section class="section-card p-6 mb-6">
+      <h2 class="text-2xl font-bold mb-4 text-blue-600">🥇 Pencapaian</h2>
+      <p class="text-gray-700">
+        🎫Aplikasi<br>
+        - Sertifikat Pencatatan Hak Cipta Aplikasi. Kementrian Hukum Republik Indonesia (2025)<br><br>
+
+        🎹Musik<br>
+        - FLS2N Solo Gitar (2023)<br><br>
+
+        🖥️GameDev<br>
+        - Juara 2 Lomba Cipta Game Edukasi Perpajakan. Direktorat Jenderal Pajak (2021)<br><br>
+
+        🧠Pendidikan<br>
+        - Lomba Ki Hajar Dewantara (2017)<br><br>
+
+        🥋Taekwondo<br>
+        - Bandung Taekwondo International Invitation<br>
+        - Juara I Bandung Pandawa 2 Taekwondo<br>
+        - Juara I Bandung Taekwondo Festival<br>
+        - Juara I Bandung Pandawa Taekwondo Championship<br>
+        - Juara I Walikota Bandung Cup XIII<br>
+        - Juara III Walikota Cup XVI<br>
+      </p>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section-card p-6 mb-6">
+      <h2 class="text-2xl font-bold mb-4 text-blue-600">👥 Pengalaman Organisasi</h2>
+      <p class="text-gray-700">
+        🎓Kuliah<br>
+        - Presidium I LKMM-TD 2024 POLBAN<br><br>
+
+        🧢SMP<br>
+        - Ketua umum MPK<br><br>
+      </p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section-card p-6 mb-6">
+      <h2 class="text-2xl font-bold mb-4 text-blue-600">📂 Portfolio</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <a href="https://www.instagram.com/p/CRTXYKtMqI9/?igsh=MTBpZGQ2MzZneXowOA==" data-lightbox="portfolio" data-title="Project 1">
+          <img src="ScreenShotInstagram_LombaCiptaGameEdukasiPerpajakan.jpg" alt="Project 1" class="rounded-lg transition-transform transform hover:scale-105">
+        </a>
+        <a href="" data-lightbox="portfolio" data-title="Project 2">
+          <img src="SertifikatHakCipta.jpg" alt="Project 2" class="rounded-lg transition-transform transform hover:scale-105">
+        </a>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section-card p-6 mb-6">
+      <h2 class="text-2xl font-bold mb-4 text-blue-600">📧 Kontak Saya</h2>
+      <form id="contact-form" class="space-y-4">
+        <input type="text" name="name" placeholder="Nama Anda" class="contact-input w-full" required>
+        <input type="email" name="email" placeholder="Email Anda" class="contact-input w-full" required>
+        <textarea name="message" placeholder="Pesan Anda" class="contact-input w-full" rows="4" required></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
+          Kirim Pesan
+        </button>
+      </form>
+    </section>
+
+    <!-- Social Links -->
+    <section class="text-center mt-8">
+      <h2 class="text-2xl font-bold mb-4 text-blue-600">🌐 Temui Saya</h2>
+      <div class="flex justify-center gap-4">
+        <a href="https://instagram.com/wyandhanumn_" target="_blank" class="social-link bg-pink-600 text-white px-6 py-2 rounded-full">
+          Instagram
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-blue-600 text-white">
+    <p>© 2025 Wyandhanu Maulidan Nugraha. All rights reserved.</p>
+  </footer>
+
+  <!-- Lightbox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
